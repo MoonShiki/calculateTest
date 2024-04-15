@@ -2,7 +2,7 @@ package test;
 
 public class calculateTest {
     public static void main(String[] args) {
-        String a = "111";
-        System.out.println(a);
+        String expression = "1.5+2.5*2-2/1";
+        System.out.println(calculator.calculate(expression));
     }
 }
